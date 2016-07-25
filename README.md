@@ -13,5 +13,6 @@ and in the papers:
 Hamilton N., Wang J., Kerr M.C., Teasdale R.D. Statistical and visual differentiation of high throughput subcellular imaging. BMC Bioinformatics 2009;10:94. http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-94
 
 Hamilton N., Teasdale R.D. Visualizing and clustering high throughput sub-cellular localization imaging BMC Bioinformatics 2008;9:81. 
+http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-9-81
 
-WARNING: iCluster has not yet been updated to work with Processsing 3. Processing 2 is the preferred version to use. http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-9-81
+WARNING: iCluster has not yet been updated to work with Processsing 3. Processing 2 is the preferred version to use. 
