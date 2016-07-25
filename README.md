@@ -7,14 +7,12 @@ iCluster can also work with user supplied statistics for each image. It can also
 
 The movie in the movie/ folder gives an idea of some of the features.
 
-More description about iCluster can be found at the web site:
-http://icluster.imb.uq.edu.au/
+More description about iCluster can be found at the [web site](http://icluster.imb.uq.edu.au/).
 
 and in the papers:
 
-Hamilton N., Wang J., Kerr M.C., Teasdale R.D. Statistical and visual differentiation of high throughput subcellular imaging. BMC Bioinformatics 2009;10:94. http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-94
+[Hamilton N., Wang J., Kerr M.C., Teasdale R.D. Statistical and visual differentiation of high throughput subcellular imaging. BMC Bioinformatics 2009;10:94.](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-94)
 
-Hamilton N., Teasdale R.D. Visualizing and clustering high throughput sub-cellular localization imaging BMC Bioinformatics 2008;9:81. 
-http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-9-81
+[Hamilton N., Teasdale R.D. Visualizing and clustering high throughput sub-cellular localization imaging BMC Bioinformatics 2008;9:81.](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-9-81)
 
 WARNING: iCluster has not yet been updated to work with Processsing 3. Processing 2 is the preferred version to use. Getting iCluster to work in Processing 3 should be fairly straight forward, but I've just got to get around to it.
