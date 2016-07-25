@@ -5,6 +5,8 @@ adjacency statistics for each image to associate a 27 dimensional vector of real
 way as to preserve the distances between the points as well as is possible. Hence statistically similar images are spatially close in the visualisation. Statistical tests for difference between image sets
 may also be performed, statistically representative images found, along with a number of other features.
 
+The movie in the movie/ folder gives an idea of some of the features.
+
 More description about iCluster can be found at the web site:
 http://icluster.imb.uq.edu.au/
 
