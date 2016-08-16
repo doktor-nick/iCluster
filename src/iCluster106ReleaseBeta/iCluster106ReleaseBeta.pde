@@ -1,4 +1,4 @@
-// (c) 2009 Dr Nick, n.hamilton@imb.uq.edu.au
+// (c) 2016 Dr Nick, n.hamilton@imb.uq.edu.au
 // All rights reserved
 
 // ChangeLog:
@@ -241,7 +241,7 @@ void setup()
  //size(screen.width*98/100, screen.height*95/100, OPENGL); // this will do full screen mode.
  // size(screen.width*98/100, screen.height*95/100, P3D); // this will do full screen mode.
 
-  size(3000,1600,OPENGL);
+  size(1500,800,OPENGL);
   frame.setResizable(true); // bug in processing that means this doesn't currently work well (processing 1.0.5 .. 1.5.1)
 
   String OS = System.getProperty("os.name");
@@ -413,7 +413,7 @@ void initVars()
   sphereR = 10;
   sphereDiff = 2;
   scaleData = 200;
-  //iScale = 3; // scale factor used to reduce image size for visualisation
+  iScale = 1; // scale factor used to reduce image size for visualisation
 
   // 3D positioning stuff
   angle = 0;
@@ -511,7 +511,7 @@ void writeConfigFile() {// writes default directory and data input file names
   String[] output = new String[3];   
   output[0] = defaultDirectory;
   output[1] = defaultFile;
-  output[2] = "iScale=3";//+iScale;
+  output[2] = "iScale=1";//+iScale;
   saveStrings(configFile,output);
 }
 
@@ -1868,27 +1868,27 @@ void mouseWheel(MouseEvent event) {
 }
 
 
-void wheelMouseSetup()
-{ // only needed for old processing versions
-  addMouseWheelListener(new java.awt.event.MouseWheelListener() {
-    public void mouseWheelMoved(java.awt.event.MouseWheelEvent e) { 
-      //println( e.getWheelRotation()); 
-      if (!mouseHeld) {    
-        res += resDiff * e.getWheelRotation()*-1;  
-        resDiff = res/20;
-      }
-      else {
-        if (mouseButton == LEFT) {
-          sphereR -= sphereDiff * e.getWheelRotation();
-        } 
-        else if (mouseButton == RIGHT) {
-          imageRes -= imageResDiff * e.getWheelRotation() * 4;
-        }
-      }
-    }
-  }
-  );
-}
+//void wheelMouseSetup()
+//{ // only needed for old processing versions
+//  addMouseWheelListener(new java.awt.event.MouseWheelListener() {
+//    public void mouseWheelMoved(java.awt.event.MouseWheelEvent e) { 
+//      //println( e.getWheelRotation()); 
+//      if (!mouseHeld) {    
+//        res += resDiff * e.getWheelRotation()*-1;  
+//        resDiff = res/20;
+//      }
+//      else {
+//        if (mouseButton == LEFT) {
+//          sphereR -= sphereDiff * e.getWheelRotation();
+//        } 
+//        else if (mouseButton == RIGHT) {
+//          imageRes -= imageResDiff * e.getWheelRotation() * 4;
+//        }
+//      }
+//    }
+//  }
+//  );
+//}
 
 void mouseDrag() {
   if (mouseButton == LEFT) {  
@@ -2191,7 +2191,7 @@ void keyPressed()
 
 void rescaleImages(int scaleDiff) {
   iScale = iScale + scaleDiff;
-  println("Rescaling images");
+  println("Rescaling images: "+iScale);
   if (iScale < 1) {
     iScale = 1; // maximum real resolution
   } 
