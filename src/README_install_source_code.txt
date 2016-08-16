@@ -9,7 +9,7 @@ Proce55ing is available for linux/windows/macosx. It is very well
 documented, easy to learn if you've programmed in a high level
 language such as C or java, and has several good books available.
 
-iCluster is currently developed under proce55ing version 2.2.1 under linux,
+iCluster is currently developed under proce55ing version 3.1 under linux,
 but is tested on all 3 platforms. Hence the preferred OS is linux, but
 the other OS's should work fine.
 
